@@ -1,0 +1,82 @@
+@use "../globals/func" as *;
+
+.about {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    
+    @include responsiveToMax(medium) {
+        width: 80%;
+        margin-inline: auto;
+    }
+    @include responsiveToMax(large){
+        height: 100vh;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 1rem;
+        margin-top: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+
+        span {
+            color: $danger-color;
+            margin-left: 1.5rem;
+        }
+    }
+
+    main {
+        width: 100%;
+
+        @include responsiveToMax(medium) {
+            @include flex(center, row);
+            gap: 2.7rem;
+            padding: 2rem;
+        }
+
+        .img-container {
+            @include responsiveToMax(medium) {
+                height: 100%;
+            }
+
+            img {
+                width: 100%;
+                object-fit: cover;
+
+                @include responsiveToMax(medium) {
+                    border-radius: 7px;
+                    width: 500px;
+                }
+
+                @include responsiveToMax(xlarge) {
+                    height: 100%;
+                }
+            }
+        }
+
+        article {
+            margin-top: 1rem;
+            line-height: 1.7;
+            color: $text-color1;
+            padding: 0.7rem;
+
+            @include responsiveToMax(medium) {
+                margin-top: 0;
+                padding: 0;
+            }
+
+            h3 {
+                @include responsiveToMax(medium) {
+                    font-size: map-get($font-sizeResponsive, h3);
+                    text-transform: uppercase;
+                }
+            }
+
+            p {
+                margin: 0;
+                line-height: 1.2;
+                text-align: justify;
+            }
+        }
+    }
+}

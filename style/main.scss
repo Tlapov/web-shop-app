@@ -1,0 +1,60 @@
+@forward "components";
+@use "globals/_func.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: $transition;
+    outline: none;
+    border: none;
+}
+
+html {
+    font-size: 1.25rem;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: $text-color1;
+    scroll-behavior: smooth;
+    background: $bg-color1;
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+small {
+    font-size: 0.8rem;
+}
+a, li, input{
+    font-size: 0.9rem;
+}
+button{
+    cursor:pointer;
+}

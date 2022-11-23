@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web shop app</title>
+    <script src="https://kit.fontawesome.com/34886baf96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section class="home">
+        <nav>
+            <div class="nav-right">
+                <div class="logo"><a href="#">Logo</a></div>
+                <ul id="showMenu">
+                    <li><a href="">O nama</a></li>
+                    <li><a href="">Proizvodi</a></li>
+                    <li><a href="">Lokacija</a></li>
+                    <li><a href="">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="nav-left">
+                <ol class="register-container">
+                    <li>Registracija</li>
+                    <li>Prijava</li>
+                </ol>
+
+                <div class="icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-bars" id="menuToggle"></i>
+                </div>
+            </div>
+            <div class="cart-items"></div>
+            
+        </nav>
+        <main class="slider-container">
+            <article>
+                <header>
+                    <h1>Dobrodošli na stranice <span>Toni</span></h1>
+                    <h2><a href="">Preuzmite naš newsletter</a></h2>
+                </header>
+                <div class="slide-icons">
+                    <div class="slider-icon" id="0"></div>
+                    <div class="slider-icon" id="1"></div>
+                    <div class="slider-icon" id="2"></div>
+                </div>
+            </article>
+        </main>
+    </section>
+    <section class="about">
+        <h2>O<span>nama</span></h2>
+        <main>
+            <div class="img-container">
+                <img src="https://images.pexels.com/photos/7681562/pexels-photo-7681562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="">
+            </div>
+            <article>
+                <h3>Tko smo mi ?</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet nesciunt, aspernatur magnam, ipsum
+                    optio ducimus, adipisci nisi tempore quo officiis excepturi. Rerum dignissimos tempora quas reiciendis.
+                    A, quod nobis, aliquam blanditiis, in quibusdam ex beatae unde reprehenderit neque illo saepe molestiae
+                    facere soluta vel laudantium voluptas. Autem ad ullam voluptas maiores dolores doloremque cumque, eius,
+                    velit quo facilis nostrum ipsam, expedita rem. Modi dolores, architecto quis doloribus dolorem
+                    similique, quia, nobis deserunt quas blanditiis optio provident nesciunt incidunt! Delectus sapiente,
+                    quo maxime nobis quia animi neque sed aliquam in dolor quos nihil dolore provident illo ad quaerat enim
+                    odit numquam nemo eius distinctio. Ea velit a, quo tempore eius itaque quod dolorum, officia natus ut
+                    quidem accusamus quis sit aliquid repudiandae dolores molestiae placeat eaque! Officiis qui, illum
+                    pariatur cum quidem sint aliquid eligendi aut ut consequuntur ab temporibus autem delectus quaerat,
+                    ipsum saepe repudiandae non quasi corrupti mollitia quos.</p>
+            </article>            
+        </main>
+    </section>
+    <section class="products">
+        <h2>Naši <span>prozivodi</span></h2>
+        <header>
+            <div class="select">
+                <label for="category">Kategorije</label>
+                <select name="" id="">
+                    <option value="">Kuhinja</option>
+                    <option value="">Wc sortiman</option>
+                    <option value="">Dnevni boravak</option>
+                    <option value="">Soba</option>
+                    <option value="">lasjdfhkdsj</option>
+                </select>
+            </div>
+            <div class="search">
+                <label for="search">Pretraži prozivode: </label>
+                <input type="text" id="search" placeholder="Pretraži prozvode">          
+            </div>  
+        </header>
+        <main class="products-container"></main>
+    </section>
+    <section class="location">
+        <h2>Naša <span>lokacija</span></h2>
+        <main>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.9121694256355!2d15.974808376197918!3d45.81301737108182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6fdc2523427%3A0x38ba0548d814fdc9!2sTrg%20bana%20Josipa%20Jela%C4%8Di%C4%87a%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1669129036472!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form action="">
+                <h3>Contact us</h3>
+                <input type="name" placeholder="Vaše ime i prezime">
+                <input type="email" placeholder="Vaš email">
+                <textarea>Napišite nam poruku</textarea>
+                <button type="submit">Potvrdi</button>
+            </form>  
+        </main>
+    </section>
+    <footer>
+        <div class="col">
+            <ul>
+                <li><i></i></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<script src="js/main.js" type="module"></script>
+
+</html>

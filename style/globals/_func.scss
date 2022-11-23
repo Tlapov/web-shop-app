@@ -1,0 +1,45 @@
+$text-color1: hsl(0, 12%, 12%);
+$text-color2: hsl(0, 12%, 95%);
+$danger-color: hsl(0, 60%, 50%);
+
+$bg-color1: hsl(0, 12%, 90%);
+$bg-color2: hsl(0, 10%, 15%);
+$bg-color3: hsl(120, 80%, 70%);
+
+$transition: 0.4s ease-in-out;
+
+@mixin flex($justify, $direction) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+$breakpoints: (
+    "xsmall": 22rem,
+    "small": 40rem,
+    "medium" : 56rem,
+    "large" : 75rem,
+    "xlarge" : 91rem,
+);
+
+@mixin responsiveToMax($size) {
+    @media (min-width: map-get($breakpoints, $size)) {
+        @content;
+    }
+}
+
+@mixin responsiveToMin($size) {
+    @media (max-width: map-get($breakpoints, $size)) {
+        @content;
+    }
+}
+
+$font-sizeResponsive: (
+    "h1": 3.3rem,
+    "h2": 2.6rem,
+    "h3": 1.7rem,
+    "h4":1.5rem,
+    "p": 1.2rem,
+    "small":1rem,
+    )

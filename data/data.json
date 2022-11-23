@@ -1,0 +1,235 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Dvostruki sudoper",
+        "img": "dvostrukiSudoper.jpg",
+        "price": 2000,
+        "inCart": 0
+      },
+      {
+        "id": 2,
+        "name": "Cjelokupni Wc asortiman",
+        "img": "cjelokupniWcasortiman.jpg",
+        "price": 24000,
+        "inCart": 0
+      },
+      {
+        "id": 3,
+        "name": "Elegantna fotelja",
+        "img": "elegantnaFotelja.jpg",
+        "price": 4000,
+        "inCart": 0
+      },
+      {
+        "id": 4,
+        "name": "Hladnjak 1",
+        "img": "hladnjak1.jpg",
+        "price": 6500,
+        "inCart": 0
+      },
+      {
+        "id": 5,
+        "name": "Hladnjak 2",
+        "img": "hladnjak2.jpg",
+        "price": 7000,
+        "inCart": 0
+      },
+      {
+        "id": 6,
+        "name": "Jastuci",
+        "img": "JastucizaKrevet.jpg",
+        "price": 500,
+        "inCart": 0
+      },
+      {
+        "id": 7,
+        "name": "Kada",
+        "img": "Kada.jpg",
+        "price": 15600,
+        "inCart": 0
+      },
+      {
+        "id": 8,
+        "name": "Kauč dnevni",
+        "img": "kaučDnevni.jpg",
+        "price": 14700,
+        "inCart": 0
+      },
+      {
+        "id": 9,
+        "name": "Kauč large",
+        "img": "kaučLarge.jpg",
+        "price": 20200,
+        "inCart": 0
+      },
+      {
+        "id": 10,
+        "name": "Kauč manji",
+        "img": "kaučManji.jpg",
+        "price": 4400,
+        "inCart": 0
+      },
+      {
+        "id": 11,
+        "name": "Krevet D1",
+        "img": "krevetD1.jpg",
+        "price": 21000,
+        "inCart": 0
+      },
+      {
+        "id": 12,
+        "name": "Krevet D3",
+        "img": "krevetD3.jpg",
+        "price": 21600,
+        "inCart": 0
+      },
+      {
+        "id": 13,
+        "name": "Krevet D5",
+        "img": "krevetD5.jpg",
+        "price": 25000,
+        "inCart": 0
+      },
+      {
+        "id": 14,
+        "name": "Krevet D6",
+        "img": "krevetD6.jpg",
+        "price": 24600,
+        "inCart": 0
+      },
+      {
+        "id": 15,
+        "name": "Kuhinja A5",
+        "img": "kuhinjaA5.jpg",
+        "price": 32500,
+        "inCart": 0
+      },
+      {
+        "id": 16,
+        "name": "Kuhinja AA1",
+        "img": "KuhinjaAA1.jpg",
+        "price": 27800,
+        "inCart": 0
+      },
+      {
+        "id": 17,
+        "name": "Kuhinjski stol",
+        "img": "kuhinjskiStol.jpg",
+        "price": 15600,
+        "inCart": 0
+      },
+      {
+        "id": 18,
+        "name": "Pećnica B3",
+        "img": "pečnicaB3.jpg",
+        "price": 12600,
+        "inCart": 0
+      },
+      {
+        "id": 19,
+        "name": "Pećnica C3",
+        "img": "pečnicaC3.jpg",
+        "price": 9600,
+        "inCart": 0
+      },
+      {
+        "id": 20,
+        "name": "Perilica suđa",
+        "img": "perilicaSuđa.jpg",
+        "price": 3700,
+        "inCart": 0
+      },
+      {
+        "id": 21,
+        "name": "Posuda cvijeća",
+        "img": "posudaCvijeća.jpg",
+        "price": 600,
+        "inCart": 0
+      },
+      {
+        "id": 22,
+        "name": "Radni stol",
+        "img": "radni stol.jpg",
+        "price": 2600,
+        "inCart": 0
+      },
+      {
+        "id": 23,
+        "name": "Ručnici",
+        "img": "ručnici.jpg",
+        "price": 440,
+        "inCart": 0
+      },
+      {
+        "id": 24,
+        "name": "Sobna Lampa",
+        "img": "sobnaLampa.jpg",
+        "price": 330,
+        "inCart": 0
+      },
+      {
+        "id": 25,
+        "name": "Sobni ormar",
+        "img": "sobniOrmar.jpg",
+        "price": 6450,
+        "inCart": 0
+      },
+      {
+        "id": 26,
+        "name": "Sobni ormar visoki",
+        "img": "sobniOrmarvisoki.jpg",
+        "price": 8050,
+        "inCart": 0
+      },
+      {
+        "id": 27,
+        "name": "Stolica za dnevni",
+        "img": "stolicaZadnevni.jpg",
+        "price": 1430,
+        "inCart": 0
+      },
+      {
+        "id": 28,
+        "name": "Sudoper",
+        "img": "sudoper.jpg",
+        "price": 1450,
+        "inCart": 0
+      },
+      {
+        "id": 29,
+        "name": "Tuš kabina",
+        "img": "tušKabina.jpg",
+        "price": 11450,
+        "inCart": 0
+      },
+      {
+        "id": 30,
+        "name": "Visoke stolice",
+        "img": "visokeStolice.jpg",
+        "price": 1300,
+        "inCart": 0
+      },
+      {
+        "id": 31,
+        "name": "Vrtna ljuljačka",
+        "img": "vrtnaLjuljačka.jpg",
+        "price": 600,
+        "inCart": 0
+      },
+      {
+        "id": 32,
+        "name": "Vrtna stolica",
+        "img": "vrtnaStolica.jpg",
+        "price": 540,
+        "inCart": 0
+      },
+      {
+        "id": 33,
+        "name": "Vrtna vrata",
+        "img": "vrtnaVrata.jpg",
+        "price": 5000,
+        "inCart": 0
+      }
+    ]
+}

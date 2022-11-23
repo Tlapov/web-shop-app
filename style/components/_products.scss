@@ -1,0 +1,151 @@
+@use "../globals/_func.scss" as *;
+
+.products {
+    margin-top: 2rem;
+
+    @include responsiveToMax(medium) {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+        span {
+            color: $danger-color;
+            margin-left: 0.7rem;
+        }
+    }
+
+    header {
+        margin-top: 2rem;
+        width: 100%;
+        @include flex(center, column);
+        row-gap: 2rem;
+
+        .select {
+            width: 90%;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: center;
+            font-size: 0.7rem;
+            @include responsiveToMax(medium){
+                font-size: 1.3rem;
+            }
+            label {
+                margin-right: 0.8rem;
+                
+            }
+            select{
+                box-shadow: 0 7px 15px $bg-color2;
+                padding: 1rem;
+                text-transform: uppercase;
+                &:focus{
+                    background: $bg-color2;
+                    color: $text-color2;
+
+                }
+            }
+        }
+
+        .search {
+            @include responsiveToMax(medium){
+                width: 70%;
+                margin-inline:auto;
+                display: grid;
+                grid-template-columns: auto 1fr;
+                align-items: center;
+            }
+
+            label {
+                padding: 0 0.7rem;
+                font-size: 0.8rem;
+                @include responsiveToMax(medium){
+                    padding: 0 1rem;
+                    font-size: 1.5rem;
+                }
+            }
+
+            input {
+                padding: 0.8rem 1.7rem;
+                border-radius: 7px;
+                border: 1px solid transparent;
+                color: $text-color2;
+                outline: none;
+                background: $bg-color2;
+                letter-spacing: 2px;
+                @include responsiveToMax(medium){
+                    text-align: center;
+                    letter-spacing: 4px;
+                }
+            }
+
+            ;
+        }
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 1.5rem;
+        width: 100%;
+        margin-top: 2.1rem;
+        place-items: center;
+        @include responsiveToMax(medium){
+            justify-content: space-between;
+            row-gap: 2.5rem;
+        }
+        .box {
+            padding: 2rem;
+            text-align: center;
+            color: $text-color1;
+            line-height: 2.3;
+            border-radius: 12px;
+            width: 350px;
+            &:hover {
+                cursor: pointer;
+                background-color: $bg-color2;
+            }
+
+            &:hover>* {
+                color: $text-color2;
+            }
+
+            img {
+                height: 11rem;
+                width: 100%;
+                border-radius: 50%;
+                margin-inline: auto;
+            }
+
+            h3 {
+                text-transform: uppercase;
+                line-height: normal;
+
+            }
+
+            p {
+                width: 100%;
+                text-align: right;
+            }
+
+            button {
+                width:100%;
+                padding: 0.7rem;
+                border-radius: 9px;
+                background-color: transparent;
+                margin-top: 0.4rem;
+                cursor: pointer;
+                background: $danger-color;
+                border: none;
+                display: none;
+            }
+            &:hover > button{
+                display: block;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@use "../globals/_func.scss" as *;
+
+.location {
+    padding: 1.7rem 0;
+    @include responsiveToMax(medium) {
+        width: 80%;
+        margin-inline: auto;
+    }
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+        span {
+            color: $danger-color;
+            margin-left: 0.7rem;
+        }
+    }
+
+    main {
+        margin-top: 1rem;
+        @include responsiveToMax(medium){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            margin-top: 2.5rem;
+        }
+        .map{
+            padding: 1rem;
+            iframe{
+                width: 100%;
+                border-radius: 7px;
+                box-shadow: 3px 3px 10px $bg-color2;
+            }
+        }
+        form{
+            @include flex(center, column);
+            width: 80%;
+            margin-inline: auto;
+            h3{
+                margin: 1rem 0;
+                text-transform: uppercase;
+            }
+            input, textarea, button{
+                width: 100%;
+                padding: 1rem;
+                margin-top: 1rem;
+                border-radius: 7px;
+                background: $bg-color2;
+                color: $text-color2;
+            }
+            input::placeholder{
+                color: $text-color2;
+            }
+            button{
+                border: none;
+                text-transform: uppercase;
+                font-size: 1rem;
+                &:hover{
+                    background-color: $danger-color;
+                }
+            }
+            textarea{
+                resize: none;
+
+            }
+
+        }
+    }
+}
